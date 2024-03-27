@@ -5,3 +5,5 @@ where
 gender in ('M', 'F')
 And 
 first_name = 'Georgi'
+Order by 
+last_name ASC
