@@ -1,0 +1,5 @@
+select 
+distinct
+first_name as ef_name
+from
+employees.employees
