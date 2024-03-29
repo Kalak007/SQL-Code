@@ -1,0 +1,10 @@
+select 
+emp.emp_no,
+birth_date,
+first_name,
+last_name,
+gender,
+hire_date
+from 
+employees emp inner join
+salaries sal on emp.emp_no = sal.emp_no
