@@ -1,0 +1,5 @@
+select *
+from
+employees emp left join 
+
+salaries sal on emp.emp_no = sal.emp_no;
