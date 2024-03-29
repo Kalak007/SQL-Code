@@ -1,0 +1,6 @@
+select 
+dep.dept_no,
+dept_name
+from
+departments dep left join
+dept_manager dept_m on dep.dept_no = dept_m.dept_no
