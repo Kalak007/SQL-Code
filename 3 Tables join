@@ -1,0 +1,8 @@
+select 
+dep.dept_no,
+dept_name,
+emp.emp_no,
+first_name
+from departments dep Left join
+dept_emp dept on dep.dept_no = dept.dept_no
+Left join employees emp on emp.emp_no = dept.emp_no
